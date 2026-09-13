@@ -1,14 +1,14 @@
 {
   "workflow": "Build and boot-test no-JIT ARM64 Redroid IPA",
-  "run_id": "29968242234",
+  "run_id": "34726710084",
   "run_attempt": "1",
   "conclusion": "failure",
-  "event": "push",
-  "run_url": "https://github.com/NightVibes33/Android-iOSEmulator/actions/runs/29968242234",
-  "head_sha": "df3d62cabba0fb03a9b2dd1604673c1d0fa166d0",
+  "event": "workflow_dispatch",
+  "run_url": "https://github.com/sasobhabha/Android-iOSEmulator/actions/runs/34726710084",
+  "head_sha": "d2559394236ee4bab099b20ef857d12447a57027",
   "head_branch": "main",
-  "created_at": "2026-07-23T00:08:45Z",
-  "updated_at": "2026-07-23T00:48:18Z",
+  "created_at": "2026-09-12T23:56:53Z",
+  "updated_at": "2026-09-13T00:36:21Z",
   "artifact_names": [
     "redroid-arm64-guest",
     "redroid-arm64-guest-diagnostics"
@@ -17,12 +17,10 @@
   "boot_diagnostics_present": true,
   "ipa_artifact_present": false,
   "release_tag": "v0.4.1-redroid13-arm64-se-signing-fix",
-  "release_present": true,
-  "release_url": "https://github.com/NightVibes33/Android-iOSEmulator/releases/tag/v0.4.1-redroid13-arm64-se-signing-fix",
-  "release_target": "main",
-  "release_assets": [
-    "Android-iOSEmulator-Redroid13-ARM64-SE-NoJIT-unsigned.ipa"
-  ],
+  "release_present": false,
+  "release_url": null,
+  "release_target": null,
+  "release_assets": [],
   "release_matches_head": false,
   "guest_architecture": "aarch64",
   "android_version": 13,
